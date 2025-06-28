@@ -11,11 +11,7 @@
 
 ## ✅ Setup Instructions:
 
-1. Unzip the project:
-```bash
-unzip TailorTalk_AdvancedPlus.zip
-cd TailorTalk_AdvancedPlus
-```
+
 
 2. Create virtual environment:
 ```bash
@@ -38,7 +34,7 @@ app/service_account.json
 
 5. Run FastAPI backend:
 ```bash
-cd app
+cd ..
 uvicorn main:app --reload
 ```
 
