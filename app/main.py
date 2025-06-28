@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from app.chat_agent import chat_response
+from chat_agent import chat_response
 
 app = FastAPI()
 session_state = {}
