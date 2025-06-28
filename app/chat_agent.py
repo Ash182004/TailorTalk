@@ -1,4 +1,4 @@
-from app.calendar_utils import get_free_slots, book_slot, cancel_event, reschedule_event
+from calendar_utils import get_free_slots, book_slot, cancel_event, reschedule_event
 from datetime import datetime
 import dateparser
 import re
